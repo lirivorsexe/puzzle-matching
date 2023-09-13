@@ -5,7 +5,7 @@ import match
 import preprocess
 
 if __name__ == "__main__":
-    dir_path = sys.argv[1]
+    dir_path = sys.argv[1] #тут был я
     black_pixel_vectors = {}
 
     for f in os.listdir(dir_path):
